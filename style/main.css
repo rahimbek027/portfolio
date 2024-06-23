@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+body a {
+  text-decoration: none;
+  color: rgb(29, 27, 27);
+}
+body ul {
+  list-style: none;
+}
+body header {
+  margin-top: 100px;
+  height: 50px;
+  background-color: #4C4CB3;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+body header nav {
+  margin-left: 100px;
+  display: flex;
+}
+body header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+body main {
+  background-color: #4C4CB3;
+  padding-block: 50px;
+}
+body main .container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+body main .container .photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+body main .container .portfolio-contacts {
+  display: grid;
+  gap: 10px;
+}
+body main .container .portfolio-contacts .name {
+  font-size: 36px;
+}
+body main .container .portfolio-contacts .work {
+  margin-block-end: 20px;
+}
+body main .container .portfolio-contacts .education {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+body main .container .portfolio-contacts .education .education-icon {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+body main .container .portfolio-contacts .phone {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+body main .container .portfolio-contacts .phone .phone-icon {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+body main .container .portfolio-contacts .email {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+body main .container .portfolio-contacts .email .email-icon {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+body main .container .portfolio-contacts .telegram {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+body main .container .portfolio-contacts .telegram .telegram-icon {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+body main .container .portfolio-contacts .instagram {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+body main .container .portfolio-contacts .instagram .insta-icon {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}/*# sourceMappingURL=main.css.map */

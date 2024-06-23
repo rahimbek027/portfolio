@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    max-width: 1200px;
+    margin: auto;
+
+    a{
+        text-decoration: none;
+        color: rgb(29, 27, 27);
+        
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    
+
+    
+
+    header{
+        margin-top: 100px;
+        height: 50px;
+        background-color: #4C4CB3;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+
+       
+
+        nav{
+            margin-left: 100px;
+            display: flex;
+
+
+            ul{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                margin-top: 15px;
+                
+            }
+        }
+    }
+
+    main{
+         background-color: #4C4CB3;
+        padding-block: 50px;
+
+
+
+        .container{
+        max-width: 1000px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        gap: 150px;
+
+        .photo{
+            
+            img{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+        }
+
+        .portfolio-contacts{
+            display: grid;
+            gap: 10px;
+
+            .name{
+                font-size: 36px;
+            }
+
+            .work{
+                margin-block-end: 20px;
+            }
+
+            .education{
+
+         display: flex;
+         align-items: center; 
+         gap: 7px;   
+         
+         .education-icon{
+            display: flex;
+         align-items: center; 
+         gap: 7px;   
+         }
+            }
+
+            .phone{
+                display: flex;
+         align-items: center; 
+         gap: 7px;   
+
+         .phone-icon{
+            display: flex;
+         align-items: center; 
+         gap: 7px;   
+         }
+            }
+
+            .email{
+                display: flex;
+         align-items: center; 
+         gap: 7px;   
+
+         .email-icon{
+            display: flex;
+         align-items: center; 
+         gap: 7px;   
+         }
+            }
+
+            .telegram{
+                display: flex;
+         align-items: center; 
+         gap: 7px;   
+
+         .telegram-icon{
+            display: flex;
+         align-items: center; 
+         gap: 7px;   
+         }
+            }
+
+            .instagram{
+                display: flex;
+         align-items: center; 
+         gap: 7px;   
+
+         .insta-icon{
+            display: flex;
+         align-items: center; 
+         gap: 7px;   
+         }
+            }
+        }
+    }
+}
+}
