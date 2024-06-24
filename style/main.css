@@ -17,7 +17,6 @@ body ul {
   list-style: none;
 }
 body header {
-  margin-top: 100px;
   height: 50px;
   background-color: #4C4CB3;
   color: white;
@@ -109,4 +108,27 @@ body main .container .portfolio-contacts .instagram .insta-icon {
   display: flex;
   align-items: center;
   gap: 7px;
+}
+body .hi {
+  font-size: 18px;
+  color: #555575;
+  margin-left: 100px;
+  padding-inline-end: 50px;
+  margin-block-start: 70px;
+  margin-block-end: 70px;
+}
+body .resume {
+  margin-left: 100px;
+}
+body .portfolio {
+  box-shadow: 3px 3px 3px 3px color rgb(57, 52, 52);
+  margin-block-end: 70px;
+}
+body .contact {
+  background-color: #4C4CB3;
+  color: white;
+  display: grid;
+  gap: 15px;
+  padding-left: 100px;
+  padding-block: 50px;
 }/*# sourceMappingURL=main.css.map */
